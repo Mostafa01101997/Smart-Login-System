@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #24353f;
+    color: #fff;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input,
+textarea {
+    background-color: #24353f !important;
+    color: #fff !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.login {
+    color: #17a2b8;
+}
+
+.login:hover {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    color: #fff !important;
+}
+

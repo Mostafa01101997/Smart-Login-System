@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <title>Kerri</title>
+    <link rel="icon" href="./images/favicon.png" /> -->
+  <!-- ^=======> Fonts [Montserrat + Nunito] -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- ^=======> style -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/bootstrap-icons.css" />
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+  <!-- -------------------------------start nav-------------------------- -->
+  <section id="signIn" class="my-5">
+    <div class="container w-100  d-flex justify-content-center align-items-center py-5">
+      <div class="container my-5 text-center ">
+        <div class="group m-auto w-75 p-5">
+          <h1 class="my-3">Smart Login System</h1>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="signInEmail" placeholder="">
+            <label for="floatingInput">Enter Your Email</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="signInPassword" placeholder="">
+            <label for="floatingInput">Enter Your password</label>
+          </div>
+
+          <p id="incorrect" class="text-center text-danger d-none">Your Email Or Password Is Incorrect</p>
+
+          <a class="form-control bg-transparent mb-3 btn btn-info login" id="btnLogin" onclick="login()">Login</a>
+          <p class="text-white">Don’t have an account? <a class='text-white' href='signup.html'>Sign Up</a></p>
+
+        </div>
+      </div>
+  </section>
+  
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
